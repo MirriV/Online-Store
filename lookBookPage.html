@@ -8,32 +8,43 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+<nav class="navbar navbar-expand-lg">
+
+  <button class="mbl-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="my-navbar navbar-nav">
+          <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./aboutPage.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./lookBookPage.html">Lookbook</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./contactPage.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./shopPage.html">Shop</a>
+          </li>
+      
+      </ul>
+<div class="shopping-bag"><a href="#"><i class="fas fa-shopping-bag"></i></a></div>
+  </div>
+</nav>
 <body>
 
    
     <div class="header d-flex flex-column align-items-center">
-        <h1 class="display-6 mt-3 mb-0">lightGallery</h1>
-        <p class="lead mt-2 mb-4">
-          lightGallery is a feature-rich, modular JavaScript gallery plugin for
-          building beautiful image and video galleries for the web and the mobile
-        </p>
-        <a class="btn mb-5 btn-outline-primary" href="https://github.com/sachinchoolur/lightGallery" target="_blank">View on GitHub</a>
+        <h1 class="display-6 mt-3 mb-0">Look Book</h1>
+        
       </div>
-      <div class="gallery-container d-flex align-items-center justify-content-center" id="gallery-container">
-        <a data-lg-size="1280-720" data-pinterest-text="Pin it3" data-tweet-text="lightGallery slide  4" data-src="https://youtu.be/IUN664s7N-c" data-poster="https://img.youtube.com/vi/IUN664s7N-c/maxresdefault.jpg" data-sub-html="<h4>Visual Soundscapes - Mountains | Planet Earth II | BBC America</h4><p>On the heels of Planet Earth II’s record-breaking Emmy nominations, BBC America presents stunning visual soundscapes from the series' amazing habitats.</p>">
-          <img class="img-responsive" src="https://img.youtube.com/vi/IUN664s7N-c/maxresdefault.jpg" class="zoom"  />
-        </a>
-        <a data-lg-size="1280-720" data-pinterest-text="Pin it3" data-tweet-text="lightGallery slide  4" data-src="//vimeo.com/112836958" data-poster="https://www.lightgalleryjs.com/images/demo/vimeo-video-poster.jpg" data-sub-html="<h4>Nature</h4><p>Video by <a target='_blank' href='https://vimeo.com/charliekaye'>Charlie Kaye</a></p>">
-          <img class="img-responsive" src="https://www.lightgalleryjs.com/images/demo/vimeo-video-poster.jpg" class="zoom" />
-        </a>
-        <a data-lg-size="1280-720" data-pinterest-text="Pin it3" data-tweet-text="lightGallery slide  4" data-src="https://private-sharing.wistia.com/medias/mwhrulrucj" data-poster="https://www.lightgalleryjs.com/images/demo/wistia-video-poster.jpeg" data-sub-html="<h4>Thank You!</h4><p> Sample Wistia video </p>">
-          <img class="img-responsive" src="https://www.lightgalleryjs.com/images/demo/wistia-video-poster.jpeg" class="zoom"/>
-        </a>
-        <a data-lg-size="1280-720" data-pinterest-text="Pin it3" data-tweet-text="lightGallery slide  4" data-video='{"source": [{"src":"https://www.lightgalleryjs.com/videos/video1.mp4", "type":"video/mp4"}], "tracks": [{"src": "https://www.lightgalleryjs.com/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "controls": true, "playsinline": true}}' data-poster="https://www.lightgalleryjs.com/images/demo/html5-video-poster.jpg" data-sub-html="<h4>'Peck Pocketed' by Kevin Herron | Disney Favorite</h4>">
-          <img class="img-responsive" src="https://www.lightgalleryjs.com/images/demo/html5-video-poster.jpg" class="zoom"/>
-        </a>
-      </div>
- <!--START OF CAROUSEL-->
+      
+ <!--START OF CAROUSEL
  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -47,7 +58,7 @@
       </div>
     </div>
   </div>
-<!--END OF CAROUSEL-->  
+END OF CAROUSEL-->  
 <style>
   * {
     box-sizing: border-box;
@@ -56,27 +67,28 @@
   .zoom {
     padding: 50px;
     transition: transform .2s;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
   }
   
   .zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
     transform: scale(1.5); 
   }
   </style>
   </head>
   <body>
   
-  <h1>Zoom on Hover</h1>
-  <p>Hover over the div element.</p>
+  
     
-  <div class="zoom"><img src="./assets/images/sunset.jpg>"> </div>
+  <div class="zoom"><img src="./assets/images/sparklyDoubleStrap.jpg"> </div>
+  
   
 
 <script src="./assets/js/lookBook.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+
 </html>
